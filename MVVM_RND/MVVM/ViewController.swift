@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         dataSource = TablesDataSource(cellIdentifier: "tableCartCell", items: viewModel.dummyCartData.carts[0].products, configureCell: { cell, product in
 
             cell.labelTitle.text = product.title
-            cell.labelDesc.text = "Price: \(product.price)  Disw Price: \(product.discountedPrice)"
+            cell.labelDesc.text = "PriceABVC: \(product.price)  Disw Price: \(product.discountedPrice)"
 
         })
 
