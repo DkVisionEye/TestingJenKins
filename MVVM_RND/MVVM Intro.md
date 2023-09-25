@@ -34,6 +34,3 @@ var abc: ((Int) -> ()) = {
 var abc: ((Int) -> Void) = {
    a in
 }
-
-
-

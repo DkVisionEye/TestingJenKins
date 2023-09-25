@@ -61,7 +61,6 @@ class ViewController: UIViewController {
         }
     }
     
-    
     //Update UI curresponding Service
     func updateDataSource() {
         
