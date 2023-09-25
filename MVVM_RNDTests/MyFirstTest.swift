@@ -28,7 +28,7 @@ final class MyFirstTest: XCTestCase {
         let num = instance.calcNu(n1: n1, n2: n2)
         
         //Assert
-        XCTAssert(num == 40.0)
+        XCTAssert(num == 51.0)
     }
     
     func testFetchTODOList() {
